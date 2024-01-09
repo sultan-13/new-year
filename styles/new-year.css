@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+.banner-container {
+    background-image: url('../images/banner/banner2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 130px;
+}
+
+.banner {
+    padding-top: 216px;
+    padding-bottom: 167px;
+    padding-right: 230px;
+}
+
+.btn {
+    text-align: right;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #F15B22;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    padding: 22px 26px;
+}
+
+.banner-title {
+
+    color: #151414;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.banner-description {
+    color: #444343;
+    text-align: right;
+    font-family: Work Sans;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+
+/* main-section */
+
+main {
+    max-width: 1140px;
+    /* background-color: #444343; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 130px;
+}
+
+/* failure-part */
+
+.image-description-container {
+    display: flex;
+    gap: 105px;
+    align-items: center;
+}
+
+.description {
+    margin-top: 200px;
+}
+
+
+.section-title {
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.section-description {
+    color: #444343;
+    font-family: Work Sans;
+    line-height: 26px;
+    margin-bottom: 16px;
+    /* background-color: #F15B22; */
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+ul li {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+ul li .section-description {
+    margin-bottom: 0px;
+}
+
+/* plan-section */
+
+.plan-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.my-plan .section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.plan-title {
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+
+.plan-description {
+    color: #737272;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* positive-mindset-section */
+
+.positive-mindset {
+    background-image: url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 130px;
+   
+
+}
+
+.keep-positive {
+    border-radius: 8px;
+    padding: 59px 617px 59px 64px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);
+
+}
+
+.positive-title {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.call-btn {
+    border-radius: 5px;
+    background: #FFF;
+    color: #F15B22;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    padding: 20px 36px;
+
+}
