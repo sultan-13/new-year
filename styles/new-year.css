@@ -147,7 +147,7 @@ ul li .section-description {
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 130px;
-   
+
 
 }
 
@@ -177,4 +177,64 @@ ul li .section-description {
     border: 0;
     padding: 20px 36px;
 
+}
+
+.contact-container {
+    background: #151414;
+    padding: 130px 230px;
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+}
+
+.future .section-title {
+    width: 485px;
+    font-size: 45px;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.future .section-description {
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.logo {
+    margin-top: 32px;
+}
+
+.email-phn {
+    margin-bottom: 16px;
+    color: #fff;
+}
+
+.subscribe .section-title {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.mail {
+    margin-top: 32px;
+    margin-bottom: 16px;
+
+}
+
+input[type="email"] {
+    color: #fff;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    background:  #151414;
+    padding: 21px 158px 20px 21px;
+}
+
+::placeholder{
+    color:  #F3F3F3;
+    font-family: Work Sans;
+    font-size: 18px;
 }
