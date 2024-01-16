@@ -11,12 +11,14 @@
     display: flex;
     justify-content: flex-end;
     margin-bottom: 130px;
+    /* border: 2px solid red; */
 }
 
 .banner {
     padding-top: 216px;
     padding-bottom: 167px;
     padding-right: 230px;
+    /* border: 2px solid green; */
 }
 
 .btn {
@@ -143,20 +145,15 @@ ul li .section-description {
 /* positive-mindset-section */
 
 .positive-mindset {
-    background-image: url('../images/watch.png');
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%),url(../images/watch.png);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 5px;
-
-
-}
-
-.keep-positive {
     border-radius: 8px;
-    padding: 59px 617px 59px 64px;
-    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);
+    padding: 59px 0px 59px 64px;
+
 
 }
+
 
 .positive-title {
     color: #FFF;
@@ -182,8 +179,6 @@ ul li .section-description {
 
 .difference{
     margin-bottom: 100px;
-    background: #fff;
-    border-radius: 5px;
 }
 
 .html-img{
@@ -193,7 +188,7 @@ ul li .section-description {
 .img{
     width: 150px;
     height: 150px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
 
 .img-html{
